@@ -22,6 +22,7 @@
     "clsx": "^2.1.1",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
+    "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.6.12",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4",
