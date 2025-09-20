@@ -32,10 +32,7 @@ export default function PrimeTickerPage() {
     <div className="grid h-full w-full place-items-center">
       <div className="flex flex-col items-center">
         <h1 className="text-4xl font-bold">PrimeTicker</h1>
-        <h2 className="mt-4 text-lg font-semibold whitespace-pre-wrap">
-          <span className="font-bold">목표</span>
-          {'\n'}1. 아래 5개의 칸에 각각의 필드를 동기화하여 랜더링하기{'\n'}2. 각 버튼을 누르면 리셋되어야 함
-        </h2>
+        <h2 className="mt-4 text-lg font-semibold whitespace-pre-wrap">useSyncExternalStore를 사용하여 구현</h2>
         <h2 className="mt-4 text-lg font-semibold">
           Time: <Timer />
         </h2>
