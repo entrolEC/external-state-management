@@ -1,5 +1,5 @@
 {
-  "name": "mutation-pattern",
+  "name": "external-state-management",
   "version": "0.1.0",
   "private": true,
   "scripts": {

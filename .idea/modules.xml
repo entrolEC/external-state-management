@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/mutation-pattern.iml" filepath="$PROJECT_DIR$/.idea/mutation-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/external-state-management.iml" filepath="$PROJECT_DIR$/.idea/external-state-management.iml" />
     </modules>
   </component>
 </project>
