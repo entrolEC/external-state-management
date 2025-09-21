@@ -74,7 +74,7 @@ export default function PrimeTickerPage() {
           </div>
         </div>
         <div className="mt-4 text-xs whitespace-pre-wrap text-gray-800">
-          각각의 필드는 2초, 3초, 5초, 7초, 11초마다 1씩 증가합니다.{'\n'} * 콘솔에서 변화를 확인해보세요.
+          각각의 필드는 2초, 3초, 5초, 7초, 11초마다 1씩 증가합니다.
         </div>
       </div>
     </div>
