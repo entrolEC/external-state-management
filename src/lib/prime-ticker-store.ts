@@ -10,7 +10,7 @@ export type PrimeTickerState = {
   e: number;
 };
 
-export const primeTickerStore = createStore<PrimeTickerState>()((set) => ({
+export const primeTickerStore = createStore<PrimeTickerState>()(() => ({
   a: 0,
   b: 0,
   c: 0,
