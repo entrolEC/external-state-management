@@ -8,7 +8,6 @@ export type PrimeTickerState = {
   c: number;
   d: number;
   e: number;
-  setField: (f: Field, n: number) => void;
 };
 
 export const primeTickerStore = createStore<PrimeTickerState>()((set) => ({
@@ -17,12 +16,11 @@ export const primeTickerStore = createStore<PrimeTickerState>()((set) => ({
   c: 0,
   d: 0,
   e: 0,
-  setField: (f: Field, n: number) => set({ [f]: n }),
 }));
 
 const handleTicker = (field: Field) => () => {
   const primeTicker = getPrimeTicker();
-  primeTickerStore.getState().setField(field, primeTicker.get(field));
+  primeTickerStore.setState({[field]: primeTicker.get(field)})
 };
 
 if (typeof window !== 'undefined') {

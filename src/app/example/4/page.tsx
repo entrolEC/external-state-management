@@ -3,7 +3,8 @@ import { windowStore } from '@/lib/window-width-store';
 import { useStore } from 'zustand/react';
 
 export default function Example4() {
-  const width = useStore(windowStore, (s) => s.width); // selector로 조각만 구독
+  // zustand store를 React 컴포넌트에서 안전하게 구독
+  const width = useStore(windowStore, (s) => s.width);
 
   return (
     <div className="grid h-full w-full place-items-center">
